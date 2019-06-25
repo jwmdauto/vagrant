@@ -16,4 +16,6 @@ apt-get install -y php php-cli php-common php-devel php-mysql
 apt-get install -y mysql mysql-server mysql-devel
 
 # Download Starter Content
-
+cd /vagrant
+sudo -u vagrant wget -q https://raw.githubusercontent.com/jwmdauto/vagrant/master/files/index.html
+sudo -u vagrant wget -q https://raw.githubusercontent.com/jwmdauto/vagrant/master/files/info.php
